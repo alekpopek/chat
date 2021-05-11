@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74233B75264AFF81005D3D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B74264AFF81005D3D76 /* AppDelegate.swift */; };
+		74233B77264AFF81005D3D76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B76264AFF81005D3D76 /* SceneDelegate.swift */; };
+		74233B79264AFF81005D3D76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B78264AFF81005D3D76 /* ViewController.swift */; };
+		74233B7C264AFF81005D3D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7A264AFF81005D3D76 /* Main.storyboard */; };
+		74233B7E264AFF82005D3D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7D264AFF82005D3D76 /* Assets.xcassets */; };
+		74233B81264AFF82005D3D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */; };
+		74233B8C264AFF83005D3D76 /* DNAChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B8B264AFF83005D3D76 /* DNAChatTests.swift */; };
+		74233B97264AFF83005D3D76 /* DNAChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B96264AFF83005D3D76 /* DNAChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74233B88264AFF83005D3D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74233B69264AFF81005D3D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74233B70264AFF81005D3D76;
+			remoteInfo = DNAChat;
+		};
+		74233B93264AFF83005D3D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74233B69264AFF81005D3D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74233B70264AFF81005D3D76;
+			remoteInfo = DNAChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74233B71264AFF81005D3D76 /* DNAChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNAChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74233B74264AFF81005D3D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74233B76264AFF81005D3D76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74233B78264AFF81005D3D76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74233B7B264AFF81005D3D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74233B7D264AFF82005D3D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74233B80264AFF82005D3D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74233B82264AFF82005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74233B87264AFF83005D3D76 /* DNAChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74233B8B264AFF83005D3D76 /* DNAChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAChatTests.swift; sourceTree = "<group>"; };
+		74233B8D264AFF83005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74233B96264AFF83005D3D76 /* DNAChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAChatUITests.swift; sourceTree = "<group>"; };
+		74233B98264AFF83005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74233B6E264AFF81005D3D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B84264AFF83005D3D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B8F264AFF83005D3D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74233B68264AFF81005D3D76 = {
+			isa = PBXGroup;
+			children = (
+				74233B73264AFF81005D3D76 /* DNAChat */,
+				74233B8A264AFF83005D3D76 /* DNAChatTests */,
+				74233B95264AFF83005D3D76 /* DNAChatUITests */,
+				74233B72264AFF81005D3D76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74233B72264AFF81005D3D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74233B71264AFF81005D3D76 /* DNAChat.app */,
+				74233B87264AFF83005D3D76 /* DNAChatTests.xctest */,
+				74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74233B73264AFF81005D3D76 /* DNAChat */ = {
+			isa = PBXGroup;
+			children = (
+				74233B74264AFF81005D3D76 /* AppDelegate.swift */,
+				74233B76264AFF81005D3D76 /* SceneDelegate.swift */,
+				74233B78264AFF81005D3D76 /* ViewController.swift */,
+				74233B7A264AFF81005D3D76 /* Main.storyboard */,
+				74233B7D264AFF82005D3D76 /* Assets.xcassets */,
+				74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */,
+				74233B82264AFF82005D3D76 /* Info.plist */,
+			);
+			path = DNAChat;
+			sourceTree = "<group>";
+		};
+		74233B8A264AFF83005D3D76 /* DNAChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				74233B8B264AFF83005D3D76 /* DNAChatTests.swift */,
+				74233B8D264AFF83005D3D76 /* Info.plist */,
+			);
+			path = DNAChatTests;
+			sourceTree = "<group>";
+		};
+		74233B95264AFF83005D3D76 /* DNAChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74233B96264AFF83005D3D76 /* DNAChatUITests.swift */,
+				74233B98264AFF83005D3D76 /* Info.plist */,
+			);
+			path = DNAChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74233B70264AFF81005D3D76 /* DNAChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74233B9B264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChat" */;
+			buildPhases = (
+				74233B6D264AFF81005D3D76 /* Sources */,
+				74233B6E264AFF81005D3D76 /* Frameworks */,
+				74233B6F264AFF81005D3D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNAChat;
+			productName = DNAChat;
+			productReference = 74233B71264AFF81005D3D76 /* DNAChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74233B86264AFF83005D3D76 /* DNAChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74233B9E264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatTests" */;
+			buildPhases = (
+				74233B83264AFF83005D3D76 /* Sources */,
+				74233B84264AFF83005D3D76 /* Frameworks */,
+				74233B85264AFF83005D3D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74233B89264AFF83005D3D76 /* PBXTargetDependency */,
+			);
+			name = DNAChatTests;
+			productName = DNAChatTests;
+			productReference = 74233B87264AFF83005D3D76 /* DNAChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74233B91264AFF83005D3D76 /* DNAChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74233BA1264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatUITests" */;
+			buildPhases = (
+				74233B8E264AFF83005D3D76 /* Sources */,
+				74233B8F264AFF83005D3D76 /* Frameworks */,
+				74233B90264AFF83005D3D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74233B94264AFF83005D3D76 /* PBXTargetDependency */,
+			);
+			name = DNAChatUITests;
+			productName = DNAChatUITests;
+			productReference = 74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74233B69264AFF81005D3D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					74233B70264AFF81005D3D76 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					74233B86264AFF83005D3D76 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 74233B70264AFF81005D3D76;
+					};
+					74233B91264AFF83005D3D76 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 74233B70264AFF81005D3D76;
+					};
+				};
+			};
+			buildConfigurationList = 74233B6C264AFF81005D3D76 /* Build configuration list for PBXProject "DNAChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74233B68264AFF81005D3D76;
+			productRefGroup = 74233B72264AFF81005D3D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74233B70264AFF81005D3D76 /* DNAChat */,
+				74233B86264AFF83005D3D76 /* DNAChatTests */,
+				74233B91264AFF83005D3D76 /* DNAChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74233B6F264AFF81005D3D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74233B81264AFF82005D3D76 /* LaunchScreen.storyboard in Resources */,
+				74233B7E264AFF82005D3D76 /* Assets.xcassets in Resources */,
+				74233B7C264AFF81005D3D76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B85264AFF83005D3D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B90264AFF83005D3D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74233B6D264AFF81005D3D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74233B79264AFF81005D3D76 /* ViewController.swift in Sources */,
+				74233B75264AFF81005D3D76 /* AppDelegate.swift in Sources */,
+				74233B77264AFF81005D3D76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B83264AFF83005D3D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74233B8C264AFF83005D3D76 /* DNAChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74233B8E264AFF83005D3D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74233B97264AFF83005D3D76 /* DNAChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74233B89264AFF83005D3D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74233B70264AFF81005D3D76 /* DNAChat */;
+			targetProxy = 74233B88264AFF83005D3D76 /* PBXContainerItemProxy */;
+		};
+		74233B94264AFF83005D3D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74233B70264AFF81005D3D76 /* DNAChat */;
+			targetProxy = 74233B93264AFF83005D3D76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74233B7A264AFF81005D3D76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74233B7B264AFF81005D3D76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74233B80264AFF82005D3D76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74233B99264AFF83005D3D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74233B9A264AFF83005D3D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74233B9C264AFF83005D3D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74233B9D264AFF83005D3D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74233B9F264AFF83005D3D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNAChat.app/DNAChat";
+			};
+			name = Debug;
+		};
+		74233BA0264AFF83005D3D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNAChat.app/DNAChat";
+			};
+			name = Release;
+		};
+		74233BA2264AFF83005D3D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DNAChat;
+			};
+			name = Debug;
+		};
+		74233BA3264AFF83005D3D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2RJ625T5;
+				INFOPLIST_FILE = DNAChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DNAChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74233B6C264AFF81005D3D76 /* Build configuration list for PBXProject "DNAChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74233B99264AFF83005D3D76 /* Debug */,
+				74233B9A264AFF83005D3D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74233B9B264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74233B9C264AFF83005D3D76 /* Debug */,
+				74233B9D264AFF83005D3D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74233B9E264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74233B9F264AFF83005D3D76 /* Debug */,
+				74233BA0264AFF83005D3D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74233BA1264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74233BA2264AFF83005D3D76 /* Debug */,
+				74233BA3264AFF83005D3D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74233B69264AFF81005D3D76 /* Project object */;
+}
