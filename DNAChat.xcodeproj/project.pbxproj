@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7405685C264B16BB0095E1D8 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405685B264B16BB0095E1D8 /* AppAppearance.swift */; };
+		7405685E264B279D0095E1D8 /* ResizableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405685D264B279D0095E1D8 /* ResizableTextView.swift */; };
 		74233B75264AFF81005D3D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B74264AFF81005D3D76 /* AppDelegate.swift */; };
-		74233B77264AFF81005D3D76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B76264AFF81005D3D76 /* SceneDelegate.swift */; };
 		74233B79264AFF81005D3D76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B78264AFF81005D3D76 /* ViewController.swift */; };
-		74233B7C264AFF81005D3D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7A264AFF81005D3D76 /* Main.storyboard */; };
 		74233B7E264AFF82005D3D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7D264AFF82005D3D76 /* Assets.xcassets */; };
 		74233B81264AFF82005D3D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */; };
 		74233B8C264AFF83005D3D76 /* DNAChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B8B264AFF83005D3D76 /* DNAChatTests.swift */; };
-		74233B97264AFF83005D3D76 /* DNAChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233B96264AFF83005D3D76 /* DNAChatUITests.swift */; };
+		74233BA7264B0096005D3D76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BA6264B0096005D3D76 /* ContentView.swift */; };
+		74233BA9264B00A2005D3D76 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BA8264B00A2005D3D76 /* ViewModel.swift */; };
+		74233BAC264B0107005D3D76 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 74233BAB264B0107005D3D76 /* SnapKit */; };
+		74233BAF264B016E005D3D76 /* AppStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BAE264B016E005D3D76 /* AppStyles.swift */; };
+		74233BB2264B0218005D3D76 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BB1264B0218005D3D76 /* ChatView.swift */; };
+		74233BB4264B0223005D3D76 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BB3264B0223005D3D76 /* ChatViewModel.swift */; };
+		74233BB6264B022C005D3D76 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BB5264B022C005D3D76 /* ChatViewController.swift */; };
+		74233BB9264B0283005D3D76 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BB8264B0283005D3D76 /* AccessoryView.swift */; };
+		74233BBB264B02AB005D3D76 /* MovableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BBA264B02AB005D3D76 /* MovableView.swift */; };
+		74233BBD264B0321005D3D76 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BBC264B0321005D3D76 /* AppStrings.swift */; };
+		74233BC1264B0517005D3D76 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BC0264B0517005D3D76 /* Message.swift */; };
+		74233BC3264B055A005D3D76 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BC2264B055A005D3D76 /* Reusable.swift */; };
+		74233BC5264B0564005D3D76 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BC4264B0564005D3D76 /* Repository.swift */; };
+		74233BC9264B0638005D3D76 /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BC8264B0638005D3D76 /* MessageRepository.swift */; };
+		74233BCB264B0AE4005D3D76 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BCA264B0AE4005D3D76 /* ChatCell.swift */; };
+		74233BCE264B0BE1005D3D76 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BCD264B0BE1005D3D76 /* Date+Extensions.swift */; };
+		74233BD0264B0E83005D3D76 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233BCF264B0E83005D3D76 /* UITableView+Extensions.swift */; };
+		74233BD3264B0F7E005D3D76 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 74233BD2264B0F7E005D3D76 /* SDWebImage */; };
+		743312DD264BB0ED004EE970 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 743312DC264BB0ED004EE970 /* RealmSwift */; };
+		743312DF264BB0ED004EE970 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 743312DE264BB0ED004EE970 /* Realm */; };
+		743312E2264BB27A004EE970 /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312E1264BB27A004EE970 /* LocalDatabase.swift */; };
+		743312E4264BB2AF004EE970 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312E3264BB2AF004EE970 /* Database.swift */; };
+		743312E8264BB35B004EE970 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312E7264BB35B004EE970 /* Persistable.swift */; };
+		743312EA264BB424004EE970 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312E9264BB424004EE970 /* MessageEntity.swift */; };
+		743312ED264BBC68004EE970 /* ImagesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312EC264BBC68004EE970 /* ImagesService.swift */; };
+		743312F1264BBF3A004EE970 /* RandomWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743312F0264BBF3A004EE970 /* RandomWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +50,42 @@
 			remoteGlobalIDString = 74233B70264AFF81005D3D76;
 			remoteInfo = DNAChat;
 		};
-		74233B93264AFF83005D3D76 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74233B69264AFF81005D3D76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74233B70264AFF81005D3D76;
-			remoteInfo = DNAChat;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7405685B264B16BB0095E1D8 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		7405685D264B279D0095E1D8 /* ResizableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableTextView.swift; sourceTree = "<group>"; };
 		74233B71264AFF81005D3D76 /* DNAChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNAChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74233B74264AFF81005D3D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74233B76264AFF81005D3D76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74233B78264AFF81005D3D76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74233B7B264AFF81005D3D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74233B7D264AFF82005D3D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74233B80264AFF82005D3D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74233B82264AFF82005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74233B87264AFF83005D3D76 /* DNAChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74233B8B264AFF83005D3D76 /* DNAChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAChatTests.swift; sourceTree = "<group>"; };
 		74233B8D264AFF83005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74233B96264AFF83005D3D76 /* DNAChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAChatUITests.swift; sourceTree = "<group>"; };
-		74233B98264AFF83005D3D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74233BA6264B0096005D3D76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74233BA8264B00A2005D3D76 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		74233BAE264B016E005D3D76 /* AppStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyles.swift; sourceTree = "<group>"; };
+		74233BB1264B0218005D3D76 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		74233BB3264B0223005D3D76 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		74233BB5264B022C005D3D76 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		74233BB8264B0283005D3D76 /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		74233BBA264B02AB005D3D76 /* MovableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovableView.swift; sourceTree = "<group>"; };
+		74233BBC264B0321005D3D76 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		74233BC0264B0517005D3D76 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		74233BC2264B055A005D3D76 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		74233BC4264B0564005D3D76 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		74233BC8264B0638005D3D76 /* MessageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
+		74233BCA264B0AE4005D3D76 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		74233BCD264B0BE1005D3D76 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		74233BCF264B0E83005D3D76 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		743312E1264BB27A004EE970 /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		743312E3264BB2AF004EE970 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		743312E7264BB35B004EE970 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		743312E9264BB424004EE970 /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		743312EC264BBC68004EE970 /* ImagesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesService.swift; sourceTree = "<group>"; };
+		743312F0264BBF3A004EE970 /* RandomWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +93,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743312DD264BB0ED004EE970 /* RealmSwift in Frameworks */,
+				74233BD3264B0F7E005D3D76 /* SDWebImage in Frameworks */,
+				743312DF264BB0ED004EE970 /* Realm in Frameworks */,
+				74233BAC264B0107005D3D76 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		74233B84264AFF83005D3D76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74233B8F264AFF83005D3D76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +115,8 @@
 			children = (
 				74233B73264AFF81005D3D76 /* DNAChat */,
 				74233B8A264AFF83005D3D76 /* DNAChatTests */,
-				74233B95264AFF83005D3D76 /* DNAChatUITests */,
 				74233B72264AFF81005D3D76 /* Products */,
+				74233BD1264B0F7E005D3D76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +125,6 @@
 			children = (
 				74233B71264AFF81005D3D76 /* DNAChat.app */,
 				74233B87264AFF83005D3D76 /* DNAChatTests.xctest */,
-				74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +132,8 @@
 		74233B73264AFF81005D3D76 /* DNAChat */ = {
 			isa = PBXGroup;
 			children = (
-				74233B74264AFF81005D3D76 /* AppDelegate.swift */,
-				74233B76264AFF81005D3D76 /* SceneDelegate.swift */,
-				74233B78264AFF81005D3D76 /* ViewController.swift */,
-				74233B7A264AFF81005D3D76 /* Main.storyboard */,
+				74233BA4264AFFD3005D3D76 /* App */,
+				74233BB0264B0205005D3D76 /* Chat */,
 				74233B7D264AFF82005D3D76 /* Assets.xcassets */,
 				74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */,
 				74233B82264AFF82005D3D76 /* Info.plist */,
@@ -119,13 +150,123 @@
 			path = DNAChatTests;
 			sourceTree = "<group>";
 		};
-		74233B95264AFF83005D3D76 /* DNAChatUITests */ = {
+		74233BA4264AFFD3005D3D76 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				74233B96264AFF83005D3D76 /* DNAChatUITests.swift */,
-				74233B98264AFF83005D3D76 /* Info.plist */,
+				7405685B264B16BB0095E1D8 /* AppAppearance.swift */,
+				74233B74264AFF81005D3D76 /* AppDelegate.swift */,
+				74233BBC264B0321005D3D76 /* AppStrings.swift */,
+				74233BAE264B016E005D3D76 /* AppStyles.swift */,
+				74233BA5264B0085005D3D76 /* Base */,
+				74233BBE264B047D005D3D76 /* Cells */,
+				74233BB7264B026B005D3D76 /* Components */,
+				74233BCC264B0BCC005D3D76 /* Extensions */,
+				74233BBF264B04D4005D3D76 /* Models */,
+				743312E0264BB267004EE970 /* Persistance */,
+				74233BC6264B05BD005D3D76 /* Protocols */,
+				74233BC7264B061F005D3D76 /* Repositories */,
+				743312EB264BBC4F004EE970 /* Services */,
 			);
-			path = DNAChatUITests;
+			path = App;
+			sourceTree = "<group>";
+		};
+		74233BA5264B0085005D3D76 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74233BA6264B0096005D3D76 /* ContentView.swift */,
+				74233B78264AFF81005D3D76 /* ViewController.swift */,
+				74233BA8264B00A2005D3D76 /* ViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74233BB0264B0205005D3D76 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				74233BB1264B0218005D3D76 /* ChatView.swift */,
+				74233BB3264B0223005D3D76 /* ChatViewModel.swift */,
+				74233BB5264B022C005D3D76 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		74233BB7264B026B005D3D76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				74233BB8264B0283005D3D76 /* AccessoryView.swift */,
+				74233BBA264B02AB005D3D76 /* MovableView.swift */,
+				7405685D264B279D0095E1D8 /* ResizableTextView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74233BBE264B047D005D3D76 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74233BCA264B0AE4005D3D76 /* ChatCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		74233BBF264B04D4005D3D76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74233BC0264B0517005D3D76 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74233BC6264B05BD005D3D76 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				743312E3264BB2AF004EE970 /* Database.swift */,
+				743312E7264BB35B004EE970 /* Persistable.swift */,
+				74233BC4264B0564005D3D76 /* Repository.swift */,
+				74233BC2264B055A005D3D76 /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		74233BC7264B061F005D3D76 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				74233BC8264B0638005D3D76 /* MessageRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		74233BCC264B0BCC005D3D76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74233BCD264B0BE1005D3D76 /* Date+Extensions.swift */,
+				74233BCF264B0E83005D3D76 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74233BD1264B0F7E005D3D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		743312E0264BB267004EE970 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				743312E1264BB27A004EE970 /* LocalDatabase.swift */,
+				743312E9264BB424004EE970 /* MessageEntity.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		743312EB264BBC4F004EE970 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				743312EC264BBC68004EE970 /* ImagesService.swift */,
+				743312F0264BBF3A004EE970 /* RandomWords.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +285,12 @@
 			dependencies = (
 			);
 			name = DNAChat;
+			packageProductDependencies = (
+				74233BAB264B0107005D3D76 /* SnapKit */,
+				74233BD2264B0F7E005D3D76 /* SDWebImage */,
+				743312DC264BB0ED004EE970 /* RealmSwift */,
+				743312DE264BB0ED004EE970 /* Realm */,
+			);
 			productName = DNAChat;
 			productReference = 74233B71264AFF81005D3D76 /* DNAChat.app */;
 			productType = "com.apple.product-type.application";
@@ -166,24 +313,6 @@
 			productReference = 74233B87264AFF83005D3D76 /* DNAChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74233B91264AFF83005D3D76 /* DNAChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74233BA1264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatUITests" */;
-			buildPhases = (
-				74233B8E264AFF83005D3D76 /* Sources */,
-				74233B8F264AFF83005D3D76 /* Frameworks */,
-				74233B90264AFF83005D3D76 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74233B94264AFF83005D3D76 /* PBXTargetDependency */,
-			);
-			name = DNAChatUITests;
-			productName = DNAChatUITests;
-			productReference = 74233B92264AFF83005D3D76 /* DNAChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +329,6 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 74233B70264AFF81005D3D76;
 					};
-					74233B91264AFF83005D3D76 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 74233B70264AFF81005D3D76;
-					};
 				};
 			};
 			buildConfigurationList = 74233B6C264AFF81005D3D76 /* Build configuration list for PBXProject "DNAChat" */;
@@ -215,13 +340,17 @@
 				Base,
 			);
 			mainGroup = 74233B68264AFF81005D3D76;
+			packageReferences = (
+				74233BAA264B0107005D3D76 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				74233BAD264B0126005D3D76 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				743312DB264BB0ED004EE970 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 74233B72264AFF81005D3D76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				74233B70264AFF81005D3D76 /* DNAChat */,
 				74233B86264AFF83005D3D76 /* DNAChatTests */,
-				74233B91264AFF83005D3D76 /* DNAChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +362,10 @@
 			files = (
 				74233B81264AFF82005D3D76 /* LaunchScreen.storyboard in Resources */,
 				74233B7E264AFF82005D3D76 /* Assets.xcassets in Resources */,
-				74233B7C264AFF81005D3D76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		74233B85264AFF83005D3D76 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74233B90264AFF83005D3D76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +379,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74233BA9264B00A2005D3D76 /* ViewModel.swift in Sources */,
+				7405685C264B16BB0095E1D8 /* AppAppearance.swift in Sources */,
+				74233BBD264B0321005D3D76 /* AppStrings.swift in Sources */,
+				74233BB4264B0223005D3D76 /* ChatViewModel.swift in Sources */,
+				743312F1264BBF3A004EE970 /* RandomWords.swift in Sources */,
+				74233BB6264B022C005D3D76 /* ChatViewController.swift in Sources */,
 				74233B79264AFF81005D3D76 /* ViewController.swift in Sources */,
+				74233BB9264B0283005D3D76 /* AccessoryView.swift in Sources */,
+				74233BC3264B055A005D3D76 /* Reusable.swift in Sources */,
+				74233BC5264B0564005D3D76 /* Repository.swift in Sources */,
+				74233BCE264B0BE1005D3D76 /* Date+Extensions.swift in Sources */,
+				74233BD0264B0E83005D3D76 /* UITableView+Extensions.swift in Sources */,
 				74233B75264AFF81005D3D76 /* AppDelegate.swift in Sources */,
-				74233B77264AFF81005D3D76 /* SceneDelegate.swift in Sources */,
+				743312E4264BB2AF004EE970 /* Database.swift in Sources */,
+				743312E2264BB27A004EE970 /* LocalDatabase.swift in Sources */,
+				74233BCB264B0AE4005D3D76 /* ChatCell.swift in Sources */,
+				743312EA264BB424004EE970 /* MessageEntity.swift in Sources */,
+				74233BAF264B016E005D3D76 /* AppStyles.swift in Sources */,
+				74233BBB264B02AB005D3D76 /* MovableView.swift in Sources */,
+				743312E8264BB35B004EE970 /* Persistable.swift in Sources */,
+				74233BC1264B0517005D3D76 /* Message.swift in Sources */,
+				74233BB2264B0218005D3D76 /* ChatView.swift in Sources */,
+				7405685E264B279D0095E1D8 /* ResizableTextView.swift in Sources */,
+				74233BC9264B0638005D3D76 /* MessageRepository.swift in Sources */,
+				743312ED264BBC68004EE970 /* ImagesService.swift in Sources */,
+				74233BA7264B0096005D3D76 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +416,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74233B8E264AFF83005D3D76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74233B97264AFF83005D3D76 /* DNAChatUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,22 +424,9 @@
 			target = 74233B70264AFF81005D3D76 /* DNAChat */;
 			targetProxy = 74233B88264AFF83005D3D76 /* PBXContainerItemProxy */;
 		};
-		74233B94264AFF83005D3D76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74233B70264AFF81005D3D76 /* DNAChat */;
-			targetProxy = 74233B93264AFF83005D3D76 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74233B7A264AFF81005D3D76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74233B7B264AFF81005D3D76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74233B7F264AFF82005D3D76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +569,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -513,46 +636,6 @@
 			};
 			name = Release;
 		};
-		74233BA2264AFF83005D3D76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UC2RJ625T5;
-				INFOPLIST_FILE = DNAChatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DNAChat;
-			};
-			name = Debug;
-		};
-		74233BA3264AFF83005D3D76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UC2RJ625T5;
-				INFOPLIST_FILE = DNAChatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.popek.DNAChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DNAChat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,16 +666,57 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74233BA1264AFF83005D3D76 /* Build configuration list for PBXNativeTarget "DNAChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74233BA2264AFF83005D3D76 /* Debug */,
-				74233BA3264AFF83005D3D76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74233BAA264B0107005D3D76 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		74233BAD264B0126005D3D76 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		743312DB264BB0ED004EE970 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74233BAB264B0107005D3D76 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74233BAA264B0107005D3D76 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		74233BD2264B0F7E005D3D76 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74233BAD264B0126005D3D76 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		743312DC264BB0ED004EE970 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743312DB264BB0ED004EE970 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		743312DE264BB0ED004EE970 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743312DB264BB0ED004EE970 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74233B69264AFF81005D3D76 /* Project object */;
 }
