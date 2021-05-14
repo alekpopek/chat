@@ -1,4 +1,4 @@
-# DNAChat
+# Chat
 A simple iOS Swift project showcasing chat view with resizable multiline TextView
 
 ![Screenshots](/docs/images/chat.png?raw=true "Screenshots")
